@@ -23,7 +23,7 @@ fi
 
 QUANTUM="6000";
 VERSION="1.4.1";
-CONF="/etc/systemd/wondershaper.conf";
+CONF="/etc/systemd/untuklimitbandwidth.conf";
 CONFLEGACY="/etc/conf.d/wondershaper.conf";
 # shellcheck disable=SC2086
 eval export HIPRIODST=$HIPRIODST;
