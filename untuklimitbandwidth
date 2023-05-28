@@ -59,15 +59,15 @@ OPTIONS:
    requiring high priority i.e. in case ssh uses dport 443.
 
 MODES:
-   wondershaper -a <adapter> -d <rate> -u <rate>
-   wondershaper -c -a <adapter>
-   wondershaper -s -a <adapter>
+   untuklimitbandwidth -a <adapter> -d <rate> -u <rate>
+   untuklimitbandwidth -c -a <adapter>
+   untuklimitbandwidth -s -a <adapter>
 
 EXAMPLES:
-   wondershaper -a eth0 -d 1024 -u 512
-   wondershaper -a eth0 -u 512
-   wondershaper -c -a eth0
-   wondershaper -p -f foo.conf
+   untuklimitbandwidth -a eth0 -d 1024 -u 512
+   untuklimitbandwidth -a eth0 -u 512
+   untuklimitbandwidth -c -a eth0
+   untuklimitbandwidth -p -f foo.conf
 
 EOF
 }
